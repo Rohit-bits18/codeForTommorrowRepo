@@ -3,5 +3,5 @@ import app from './routes'
 const port =process.env.port || 5000
 
 app.listen(port,()=>{
-  console.log("server is running at port :",port);
+  console.log("server is running at port :",port  );
 })
